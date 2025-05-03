@@ -23,6 +23,7 @@ pandas, matplotlib, seaborn
 1️⃣ Data Loading
 Imported 7 CSV files into the Jupyter Notebook using pandas.
 Previewed each dataset using .head(), .info(), and .shape() to understand structure and completeness.
+
 2️⃣ Data Cleaning & Preparation
 ✅ Date Parsing:
 Converted mixed date formats (1/5/2022, 1-5-2022) to datetime using pd.to_datetime() with custom logic.
@@ -34,6 +35,7 @@ Checked for and removed duplicate rows in all datasets.
 Identified outliers using IQR method in numerical columns like revenue_realized, ratings_given.
 ✅ Data Type Conversion:
 Ensured consistent formats for analysis: int, float, datetime, category.
+
 3️⃣ Exploratory Data Analysis (EDA)
 Performed several insights and business-focused analyses:
 📌 Booking Behavior
@@ -48,6 +50,7 @@ Analysis of properties with highest capacity and booking success.
 📌 Ratings Analysis
 Average ratings given by city (Horizontal Bar Chart).
 Relationship between room class and customer feedback.
+
 4️⃣ Visualization
 Used matplotlib and seaborn to create:
 Line plots, bar charts, and pie charts for all key KPIs.
